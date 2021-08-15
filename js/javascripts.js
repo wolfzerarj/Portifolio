@@ -1,6 +1,6 @@
 $(function(){
-    $('nav.icon').click(function(){
-        var listamenu = $('nav.barrahome1 ul');
+    $('nav.celular').click(function(){
+        var listamenu = $('nav.mobilemenu ul');
         listamenu.fadeToggle()
     })
        
