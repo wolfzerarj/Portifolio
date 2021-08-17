@@ -138,7 +138,7 @@ div p{
 	}
 	
 	nav.celular{
-		display: none;
+		display: hidden;
 	}
 
 }
