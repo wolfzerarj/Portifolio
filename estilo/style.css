@@ -46,7 +46,7 @@ div.desktop{
 nav.celular{
 	color: white;
 	background: #030726;
-	display: none;	
+	display: none;
 }
 .celular i {
 	padding-top: 5px;
@@ -138,7 +138,10 @@ div p{
 	}
 	
 	nav.celular{
-		display: hidden;
+		display: block;
+		
 	}
+	
+	
 
 }
