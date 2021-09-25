@@ -1,8 +1,8 @@
 *{
-	margin: 0;
+	margin: 0 ;
 	@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400;1,500;1,700&display=swap');
-	font-family: 'Lora', serif;
-	align-items: center;
+	font-family: courier,arial,helvetica;
+	text-align: center;
 }
 
 
@@ -19,14 +19,14 @@
 }
 body{
 	line-height: 1.5;
-	background: rgb(3, 7, 38);
+	background-image: linear-gradient( to right , #121212, rgb(59, 59, 59));
 	color: white;
 }
 /*classes auxiliares*/
 
 /* nav desktop */
 .barrahome{
-	font-size: 10px;
+	font-size: small;
 	padding-left: 5px;
 	float:right;
 	padding-top: 2px;
@@ -40,13 +40,14 @@ nav.barrahome a{
 div.desktop{
 	width: 100%; 
 	height: 30px;
-	background:#030726;
+	background-image: linear-gradient( to right , #121212, rgb(59, 59, 59));
 }
 /* nav mobile */
 nav.celular{
 	color: white;
 	background: #030726;
 	display: none;
+	
 }
 .celular i {
 	padding-top: 5px;
@@ -58,6 +59,7 @@ div.bar-cel{
 .mobilemenu{
 	background: #030726;
 	text-decoration: none;
+	display: none;
 }
 .mobilemenu a{
 	text-decoration: none;
@@ -102,6 +104,18 @@ div.imagem2  {
 .py{
 	padding-bottom: 10px;
 }
+
+
+
+.block{
+	min-height: 200px;
+	display: flexbox;
+}
+.block img{
+	width: 40%;
+	
+}
+
 /* imagens */
 
 /* textos */
@@ -115,7 +129,8 @@ div.imagem2  {
 div.titulo p{
 	text-align: justify;
 	text-align: center;
-	font-size: 15px;
+	font-size: medium;
+	
 	
 }
 div p{
@@ -135,13 +150,31 @@ div p{
 @media screen and (max-width: 768px) {
 	.barrahome{
 		display: none;
+		
 	}
 	
 	nav.celular{
 		display: block;
 		
+		
 	}
 	
-	
+	nav.mobilemenu{
+		display: block;
+		
+	}
 
+	div.block{
+		text-align: center;
+	}
+
+	div.block img {
+		width: 50%;
+		
+	}
+
+	
+	
+	
+	
 }
