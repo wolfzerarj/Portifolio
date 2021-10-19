@@ -19,7 +19,22 @@
 }
 body{
 	line-height: 1.5;
-	background-image: linear-gradient( to right , #121212, rgb(59, 59, 59));
+	background-image: linear-gradient( to right , #121212, rgb(41, 40, 40));
+	color: white;
+}
+
+#main{
+    text-align: center;
+	
+    
+}
+
+#main img{
+	width: 80%;
+	border-radius: 5em;
+	border-style: solid, #121212;
+}
+#codes{
 	color: white;
 }
 /*classes auxiliares*/
@@ -45,7 +60,7 @@ div.desktop{
 /* nav mobile */
 nav.celular{
 	color: white;
-	background: #030726;
+	background-image: linear-gradient( to right , #121212, rgb(59, 59, 59));
 	display: none;
 	
 }
@@ -53,13 +68,12 @@ nav.celular{
 	padding-top: 5px;
 	padding-left:5px ;
 }
-div.bar-cel{
-	text-align: center;
-}
+
 .mobilemenu{
-	background: #030726;
+	background-image: linear-gradient( to right , #121212, rgb(59, 59, 59));
 	text-decoration: none;
 	display: none;
+	text-align: center;
 }
 .mobilemenu a{
 	text-decoration: none;
