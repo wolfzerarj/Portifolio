@@ -19,7 +19,8 @@
 }
 body{
 	line-height: 1.5;
-	background-image: linear-gradient( to right , #121212, rgb(41, 40, 40));
+	background: -webkit-linear-gradient(to right, #5c258d, #4389a2); /* Chrome 10-25, Safari 5.1-6 */
+ 	background: linear-gradient(to right, #5c258d, #4389a2);
 	color: white;
 }
 
@@ -55,7 +56,10 @@ nav.barrahome a{
 div.desktop{
 	width: 100%; 
 	height: 30px;
-	background-image: linear-gradient( to right , #121212, rgb(59, 59, 59));
+	background: -webkit-linear-gradient(to right, #5c258d, #4389a2); /* Chrome 10-25, Safari 5.1-6 */
+ 	background: linear-gradient(to right, #5c258d, #4389a2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* background-image: linear-gradient( to right , #121212, rgb(59, 59, 59));
+	border: #121212 2px solid; */
 }
 /* nav mobile */
 nav.celular{
@@ -94,6 +98,7 @@ nav.celular{
 	width: 100%;
 	height: auto;
 	
+	
 }
 section.imagem1 img{
 	padding-top: 5px;
@@ -123,7 +128,7 @@ div.imagem2  {
 
 .block{
 	min-height: 200px;
-	display: flexbox;
+	display: flex;
 }
 .block img{
 	width: 40%;
@@ -136,7 +141,7 @@ div.imagem2  {
 
 .titulo{
 	text-align: center;
-	padding-top: 10px;
+	margin: 20px;
 	
 
 }
@@ -150,6 +155,7 @@ div.titulo p{
 div p{
 	padding-top: 10px;
 	padding-bottom:10px;
+	line-height: normal;
 }
 /* texto */
 
